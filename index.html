@@ -22,7 +22,7 @@ var name = [
 var uri = window.location.href;
 if (uri.indexOf("?uri=") > 0) {
   var loc = uri.substring(uri.indexOf('?uri=') + 5);
-  int countDown = 5;
+  var countDown = 5;
   var t = setInterval(function(){
     document.getElementById('count').innerHTML = "You will be redirected to <strong>" + name[uris.indexOf(loc)] + "</strong> in <strong> " + countDown + " </strong> second(s)";
     countDown--;
