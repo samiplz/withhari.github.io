@@ -2,42 +2,52 @@
 <html>
 <head>
   <title>Redirecting</title>
+  <style type="text/css">
+    #count {
+      font-size: 24px;
+      text-align: center;
+      color: #444;
+    }
+    #count strong {
+      color: #44f;
+    }
+  </style>
 </head>
 <body>
-<div id="count">
-  
-</div>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6093173076046100"
-     data-ad-slot="8470229279"
-     data-ad-format="auto"></ins>
-<script> 
-(adsbygoogle = window.adsbygoogle || []).push({});
-var uris = [
- "https://goo.gl/t1c9xv",
- "https://goo.gl/tL7828"
-];
-var web_name = [
- "state.gov official website",
- "state.gov photo guide"
-];
-var uri = window.location.href;
-if (uri.indexOf("?uri=") > 0) {
-  var loc = uri.substring(uri.indexOf('?uri=') + 5);
-  var countDown = 5;
-  if (uris.indexOf(loc) >= 0) {
-    var t = setInterval(function(){
-      document.getElementById('count').innerHTML = "You will be redirected to <strong>" + web_name[uris.indexOf(loc)] + "</strong> in <strong> " + countDown + " </strong> second(s)";
-      countDown--;
-      if (countDown == 0) {
-        document.location = loc;
-        clearInterval(t);
+  <div id="count">
+
+  </div>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-6093173076046100"
+  data-ad-slot="8470229279"
+  data-ad-format="auto"></ins>
+  <script> 
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    var uris = [
+    "https://goo.gl/t1c9xv",
+    "https://goo.gl/tL7828"
+    ];
+    var web_name = [
+    "state.gov official website",
+    "state.gov photo guide"
+    ];
+    var uri = window.location.href;
+    if (uri.indexOf("?uri=") > 0) {
+      var loc = uri.substring(uri.indexOf('?uri=') + 5);
+      var countDown = 5;
+      if (uris.indexOf(loc) >= 0) {
+        var t = setInterval(function(){
+          document.getElementById('count').innerHTML = "You will be redirected to <strong>" + web_name[uris.indexOf(loc)] + "</strong> in <strong> " + countDown + " </strong> second(s)";
+          countDown--;
+          if (countDown == 0) {
+            document.location = loc;
+            clearInterval(t);
+          }
+        }, 1000);
       }
-    }, 1000);
-  }
-}
-</script>
+    }
+  </script>
 </body>
 </html>
