@@ -1,22 +1,22 @@
 [
  {
-  "from": "Bajaj",
+  "from": "Coming soon",
   "url" : "https://www.facebook.com/hhbajaj",
-  "title": "",
-  "description": "",
-  "starts": "",
-  "ends": "",
+  "title": "Coming soon",
+  "description": "This is a sample offer with text and url only",
+  "starts": "9/21/2016",
+  "ends": "10/21/2016",
   "image": "",
-  "type": ""
+  "type": "Coming"
  },
  {
-  "from": "",
-  "url" : "",
-  "title": "",
-  "description": "",
-  "starts": "",
-  "ends": "",
-  "image": "",
-  "type": ""
+  "from": "Coming soon",
+  "url" : "https://www.facebook.com/hhbajaj",
+  "title": "Coming soon",
+  "description": "This is a sample offer with text, url and image",
+  "starts": "9/21/2016",
+  "ends": "10/21/2016",
+  "image": "http://withhari.github.io/img/coming.jpg",
+  "type": "Soon"
  }
 ]
