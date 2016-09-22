@@ -13,6 +13,16 @@
   "from": "Coming soon",
   "url" : "https://www.facebook.com/hhbajaj",
   "title": "Coming soon",
+  "description": "This is a sample offer with text and url only [2]",
+  "starts": "9/21/2016",
+  "ends": "10/21/2016",
+  "image": "",
+  "type": "Coming"
+ },
+ {
+  "from": "Coming soon",
+  "url" : "https://www.facebook.com/hhbajaj",
+  "title": "Coming soon",
   "description": "This is a sample offer with text, url and image",
   "starts": "9/21/2016",
   "ends": "10/21/2016",
